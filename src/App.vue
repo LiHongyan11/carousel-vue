@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <Carousel :list="list" />
+    <Carousel>
+      <carousel-item v-for="(item, index) in list" :key="index" :index="index" class="carousel-item">
+        <img :src="item" />
+      </carousel-item>
+    </Carousel>
   </div>
 </template>
 
 <script>
 import Carousel from './components/Carousel.vue'
-// import Test from './components/Test.vue'
+import CarouselItem from './components/Carousel-item.vue'
 
 export default {
   name: 'app',
   components: {
-    Carousel
+    Carousel,
+    CarouselItem
   },
   data() {
     return {
@@ -38,7 +42,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,5 +52,11 @@ export default {
   margin-top: 60px;
   width: 70%;
   margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 </style>
