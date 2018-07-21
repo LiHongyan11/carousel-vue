@@ -36,7 +36,7 @@ export default {
 
 ## Example
 
-![](http://github.com/LiHongyan11/carousel-vue/raw/master/example@2x.png
+![image](http://github.com/LiHongyan11/carousel-vue/raw/master/example@2x.png)
 
 ### Configuration
 | Property                  | Type    | Default | Description                                                                                                                                                                                                                                                                           |
