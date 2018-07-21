@@ -1,6 +1,7 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Example picture](#Example)
 - [Development](#development)
 - [License](#license)
 
@@ -32,6 +33,9 @@ export default {
   ...
 };
 ```
+
+## Example
+
 
 ### Configuration
 | Property                  | Type    | Default | Description                                                                                                                                                                                                                                                                           |
