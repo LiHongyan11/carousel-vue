@@ -62,14 +62,14 @@ To begin development, run:
 
 ``` bash
 npm install 
-npm run dev
+npm run serve
 ```
 
 or, if you prefer yarn
 
 ``` bash
 yarn install 
-yarn dev
+yarn serve
 ```
 
 then navigate to `http://localhost:8080`
