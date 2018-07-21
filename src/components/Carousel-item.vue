@@ -24,14 +24,14 @@ export default {
                 styles = {
                     'visibility': 'hidden',
                     'width': 0,
-                    'height': 0,
+                    // 'height': 0,
                     'margin-right': 0
                 };
             } else {
                 styles = {
                     'visibility': 'visible',
                     'width': showList[this.index] + 'px',
-                    'height': showList[this.index] + 'px',
+                    // 'height': showList[this.index] + 'px',
                     'margin-right': '5px'
                 };
             }
@@ -44,7 +44,7 @@ export default {
 li {
     flex: 0 0 auto;
     width: 0;
-    height: 0;
+    height: 100%;
     transition: all 1s;
     
 }

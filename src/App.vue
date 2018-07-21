@@ -2,7 +2,7 @@
   <div id="app">
     <Carousel>
       <carousel-item v-for="(item, index) in list" :key="index" :index="index" class="carousel-item">
-        <img :src="item" />
+        <div class="demo"></div>
       </carousel-item>
     </Carousel>
   </div>
@@ -54,9 +54,10 @@ export default {
   margin: 0 auto;
 }
 
-.carousel-item img {
+.carousel-item .demo {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  background: #ddd;
 }
 </style>

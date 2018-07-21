@@ -14,7 +14,7 @@ export default {
   props: {
     reduce: {
       type: Number,
-      default: 10
+      default: 20
     },
     visibleItem: {
       type: Number,
