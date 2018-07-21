@@ -1,16 +1,25 @@
 {
-  "name": "vue-test",
-  "version": "0.1.0",
-  "private": true,
+  "name": "carousel-vue",
+  "version": "0.1.1",
+  "private": false,
+  "main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "vue": "^2.5.16",
-    "vue-carousel-3d": "^0.1.23"
+    "vue": "^2.5.16"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiHongyan11/carousel-vue.git"
+  },
+  "author": "179947177@qq.com",
+  "keywords": [
+    "Vue",
+    "carousel"
+  ],
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",
     "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
