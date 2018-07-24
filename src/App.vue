@@ -3,14 +3,17 @@
     <Carousel>
       <carousel-item v-for="(item, index) in list" :key="index" :index="index" class="carousel-item">
         <div class="demo"></div>
+        <!-- <img :src="item" /> -->
       </carousel-item>
     </Carousel>
   </div>
 </template>
 
 <script>
-import Carousel from './components/Carousel.vue'
-import CarouselItem from './components/Carousel-item.vue'
+// import Carousel from './components/Carousel.vue'
+// import CarouselItem from './components/Carousel-item.vue'
+import {Carousel, CarouselItem} from 'carousel-vue';
+import 'carousel-vue/dist/carousel.css'
 
 export default {
   name: 'app',
@@ -59,5 +62,10 @@ export default {
   height: 100%;
   border-radius: 10px;
   background: #ddd;
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 </style>

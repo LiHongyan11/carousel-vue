@@ -24,14 +24,14 @@ export default {
                 styles = {
                     'visibility': 'hidden',
                     'width': 0,
-                    // 'height': 0,
+                    'height': 0,
                     'margin-right': 0
                 };
             } else {
                 styles = {
                     'visibility': 'visible',
                     'width': showList[this.index] + 'px',
-                    // 'height': showList[this.index] + 'px',
+                    'height': '100%',
                     'margin-right': '5px'
                 };
             }
